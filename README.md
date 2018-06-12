@@ -6,7 +6,7 @@ It is in the best interest of the entire EOS community to select block producers
 
 ## Why off-line?
 
-Having the above situation in mind, [Tokenika](https://tokenika.io/) has decided to release a tool offering the possibility of **OFF-LINE** voting for block producers. Contrary to the on-line equivalent, with off-line voting, if done properly, at no point in time is your EOS private key exposed to the outside world. Thus the risk of being hacked is substantially reduced.
+Having the above situation in mind, [Tokenika](https://tokenika.io/) has decided to release a tool offering the possibility of **OFF-LINE** voting for block producers. Contrary to the on-line equivalent, with off-line voting, if done properly, at no point in time is your EOS private key exposed to the outside world. Thus the risk of being hacked is substantially reduced. 
 
 ## How it works?
 The main idea is to generate a voting transaction while being completely off-line and make sure the private key is used only for signing the transaction and is never exposed afterwards. The actual signing and key handling process uses only official EOSIO unmodified codebase. Thus the [eosjs](https://github.com/EOSIO/eosjs) library is the only external dependency, while the rest of the code is pretty short and simple.
@@ -23,15 +23,12 @@ The process of off-line voting is divided into three simple steps, each of them 
 
 **NOTE:** Step 2 is to be done **OFF-LINE**, ideally on a computer which has never been connected to the Internet.
 
-## Explainer video
-
-And [here's an explainer video](https://youtu.be/_sJYuXOUHCc) shot by [noisy](https://github.com/noisy), the lead developer of this tool.
-
-[![](video_instruction_thumbnail.png)](https://www.youtube.com/watch?v=_sJYuXOUHCc)
 
 ## About
 
 *Secure EOS Block Producer Voting* is an open-source software created by [Tokenika](https://tokenika.io/), an EOS block producer candidate. The source code is available at [https://github.com/tokenika/secure-bp-voting](https://github.com/tokenika/secure-bp-voting) on [MIT Licence](https://github.com/tokenika/secure-bp-voting/blob/master/LICENSE). A HTML version of this document is also available under this URL: [https://tokenika.github.io/secure-bp-voting](https://tokenika.github.io/secure-bp-voting).
+
+We, [BPAC](https://bpac.io) extended a step further by adding the block producers list as well. 
 
 ## Feedback is welcome
 
